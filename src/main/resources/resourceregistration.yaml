@@ -23,7 +23,7 @@ info:
 
 schemes:
   - https
- The domain of the API.
+#The domain of the API.
 # This is configured by the customer during deployment.
 # The given host is just an example.
 
@@ -159,7 +159,7 @@ paths:
       summary: Update resource description by ID
       description: >-
         This method uses to update resource description information when
-        resource ID is given by the resource owner. 
+        resource ID is given by the resource owner.
       operationId: updateResource
       parameters:
         - $ref: '#/parameters/resourceId'
@@ -257,7 +257,7 @@ definitions:
       icon_uri:
         type: string
         description: |
-          A URI for a graphic icon representing the resource.  
+          A URI for a graphic icon representing the resource.
         example: 'http://www.example.com/icons/sky.png'
       name:
         type: string
