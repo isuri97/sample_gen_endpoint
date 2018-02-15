@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="resource-endpoint:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="identity.oauth.uma.resource.endpoint.war">
+      <element id="artifact" artifact-name="resource-endpoint:war exploded" />
+    </root>
+  </artifact>
+</component>
